@@ -37,6 +37,7 @@ Welcome to the Fit Fitness Platform! This platform is designed to offer a compre
 - **Feedback and Comments 💬**
   - **Implementation:** Allows users to provide feedback and comment on posts using a structured comment system.
   - **Technical Detail:** Utilizes cloud database capabilities to handle CRUD operations for comments and feedback.
+  - 
 ![健身圈页面](https://user-images.githubusercontent.com/99072450/233411698-ed734254-5fa7-4d01-888b-8d156d165b82.png)
 ![管理员审核页面](https://user-images.githubusercontent.com/99072450/233411740-9e5d6800-a3c5-4bd8-8d9d-3b0bec65c1cd.png)
 ### 4. Events 🎉
