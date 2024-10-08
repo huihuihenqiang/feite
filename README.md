@@ -1,5 +1,55 @@
 # Fit Fitness Platform 💪
 
+# 【更新】2024.10.8新加入板块：
+![图片](https://github.com/user-attachments/assets/ab61b2c5-af2d-4d66-8dcc-a869e0a0df01)
+
+## 爬虫板块介绍
+通过自动化方式从网络上抓取特定健身知识数据。使用了 Python 的 `requests` 和 `BeautifulSoup` 等库实现网页的请求与解析。支持多种数据格式输出，并具有错误处理与代理切换功能。
+
+### 主要功能
+- **数据抓取**：通过自定义 URL 抓取网页内容，支持动态与静态页面。
+- **数据解析**：使用 `BeautifulSoup` 解析 HTML，提取目标数据。
+- **存储与输出**：抓取的数据可以输出为 JSON、CSV 等格式，支持文件存储或数据库插入。
+- **错误处理**：处理网络请求中的常见错误，如 404、超时等。
+- **代理与延迟**：支持通过代理进行爬取，避免 IP 被封禁，并设置请求延迟模拟人工访问。
+
+### 未来工作
+- 增加对 JavaScript 动态加载页面的处理。
+- 实现分布式爬虫，提高爬取效率。
+## Web Scraping Section 
+The web scraping module in this project automates the process of extracting specific exercise data from websites. It uses Python's `requests` and `BeautifulSoup` libraries for making HTTP requests and parsing HTML content. The module supports various output formats and includes error handling and proxy switching.
+
+### Key Features
+- **Data Scraping**: Fetch content from webpages via custom URLs, supports both static and dynamic pages.
+- **Data Parsing**: Use `BeautifulSoup` to parse HTML and extract target data.
+- **Storage & Output**: Data can be saved in JSON, CSV, and other formats, supporting file storage or database insertion.
+- **Error Handling**: Handles common network issues such as 404 errors, timeouts, etc.
+- **Proxy & Delay**: Supports proxy scraping to prevent IP blocking and allows setting request delays to simulate human behavior.
+
+### Future Work
+- Add support for handling JavaScript dynamically-loaded pages.
+- Implement distributed scraping for improved efficiency.
+![图片](https://github.com/user-attachments/assets/3bb73c99-c90d-48c8-bad0-406ce7c1b2a7)
+
+## 智能健身对话系统 
+本项目的智能健身对话系统使用人工智能技术，为用户提供个性化的健身指导与互动。该系统通过调用大模型（通义千问）生成自然语言对话，帮助用户规划健身计划、解答健身问题，甚至提供实时健身建议。
+
+### 主要功能
+- **个性化健身对话**：基于用户输入，通过 AI 生成针对性建议，包括训练计划、饮食推荐和动作指导。
+- **自然语言处理**：通过 GPT 大模型，能够理解用户需求，进行流畅的对话。
+- **实时反馈**：用户可以通过对话获得即时的健身建议和反馈，提升运动体验。
+- **多轮对话**：支持复杂的多轮对话，帮助用户进行长时间的健身规划和跟踪。
+
+## Intelligent Fitness Dialogue System (English)
+This project’s Intelligent Fitness Dialogue System leverages AI technologies to offer personalized fitness guidance and interactive conversations. By utilizing large language models (such as the qwen series), the system generates natural language dialogues to help users plan workouts, answer fitness-related questions, and even provide real-time fitness advice.
+
+### Key Features
+- **Personalized Fitness Dialogue**: Based on user input, the AI generates tailored advice, including workout plans, dietary recommendations, and exercise instructions.
+- **Natural Language Processing**: Uses GPT models to understand user needs and conduct smooth conversations.
+- **Real-time Feedback**: Users receive instant fitness advice and feedback to enhance their workout experience.
+- **Multi-turn Conversations**: Supports complex multi-turn dialogues for long-term fitness planning and progress tracking.
+
+
 ## Overview
 
 Welcome to the Fit Fitness Platform! This platform is designed to offer a comprehensive fitness experience through both online and offline services. Below, we will introduce the online components of our platform, including the technical details and programming techniques used to implement various features.
@@ -188,6 +238,10 @@ For any inquiries or support, feel free to contact us at [1870586279@qq.com].
 
 如果想要部署和尝试的可以联系我，后期也会不断更新。因为使用了云开发，新手部署起来还是有一些难度的。
 ![图片](https://user-images.githubusercontent.com/99072450/233413000-cb71be5d-3ab3-4168-91d0-53a1406d3b86.png)
+
+
+
+
 
 
 
